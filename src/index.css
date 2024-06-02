@@ -1,0 +1,64 @@
+.card {
+  background-color: cornflowerblue;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+input {
+  width: 60%;
+  padding: 10px 4px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  border-radius: 12px;
+  color: cornflowerblue;
+}
+
+.submit-btn {
+  background-color: aliceblue;
+  width: 120px;
+  height: 40px;
+  margin-right: 40px;
+  border-radius: 12px;
+  border: none;
+  color: cornflowerblue;
+  font-weight: 900;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.card-ctr{
+    color: aliceblue;
+    margin-top: 15px;
+    padding: 2px 20px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: cornflowerblue;
+  display: flex;
+  place-items: center;
+}
+
+.nav button{
+  background-color: cornflowerblue;
+  color: aliceblue ;
+  width: 120px;
+  height: 40px;
+  border-radius: 18px;
+  border: none;
+  font-weight: 700;
+}
