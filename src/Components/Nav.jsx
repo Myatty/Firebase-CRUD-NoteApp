@@ -1,10 +1,12 @@
 /* eslint-disable react/prop-types */
 
-const Nav = ({getNotes}) => {
+const Nav = ({totalNotes}) => {
   return (
     <section className="nav">
         <h1 className="logo">FireNote</h1>
-        <button onClick={getNotes}>Show Note</button>
+        <p className="total-note">
+            Total Notes - <span>{totalNotes}</span>
+        </p>
     </section>
   )
 }

@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
-const AddNote = () => {
+const AddNote = ({getNotes}) => {
   //define state
   const [note, setNote] = useState("");
 
@@ -20,6 +21,7 @@ const AddNote = () => {
       );
 
       setNote("");
+      getNotes();
     } catch (error) {
       alert("Something went Wrong!");
     }

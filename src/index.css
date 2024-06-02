@@ -29,9 +29,29 @@ input {
   font-weight: 900;
 }
 
+.total-note{
+  background-color: cornflowerblue;
+  width: 120px;
+  height: 40px;
+  color: aliceblue;
+  border-radius: 18px;
+
+}
+
+.nav p{
+  display: flex;
+  place-items: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
 .logo {
   display: flex;
-  justify-content: center;
+  place-items: center;
+  justify-content: space-between;
 }
 
 .card-ctr{
@@ -53,12 +73,30 @@ input {
   place-items: center;
 }
 
-.nav button{
-  background-color: cornflowerblue;
-  color: aliceblue ;
-  width: 120px;
-  height: 40px;
-  border-radius: 18px;
-  border: none;
-  font-weight: 700;
+.error-message{
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 20px;
+  max-width: 20px 0;
+  font-weight: 600;
+}
+
+.message{
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 20px;
+  max-width: 20px 0px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.error-message{color: red;}
+
+svg{
+  cursor: pointer;
+}
+
+.intro , .intro h1{
+  text-align: center;
+  color: cornflowerblue;
 }
